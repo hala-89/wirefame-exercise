@@ -12,18 +12,10 @@ body
 
 }
 
-       .button { 
-        background-color:grey;
-        padding: 200px 70px;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-      }
-
       nav{
 
-        background-color: whitesmoke;
-        width: auto;
+        background-color: rgb(61, 61, 61);
+        margin-bottom: 20px;
 
       }
     nav ul{
@@ -31,47 +23,73 @@ body
     }
   nav ul li {
       display: inline-block;
-      
+      padding: 20px;      
   }
-  
-  .placeholder{
-        width: 960px;
-        height: 450;
-        padding: 50px;
-    }
+  nav ul li a
+  {
+      text-decoration: none;
+      font-weight:bolder;
+      color:white;
+      position: relative;
+      bottom: 25px;
+  }
 
- section{
-    background-color: whitesmoke;
- }
-  
- 
- .placeholder:first-child{
-    width:375 px;
-    height: 300px;
-    padding: 50px;
- }
- 
- .placeholder:last-child{
-    
-    height: 450;
-    padding: 50px;
-
-
+.hero_image
+{
+    text-align: center;
+}
+.sub-banner
+{
+    text-align: center;
+    padding-top: 25px;
+}
+.features
+{
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    right: 16%;
 }
 
-
-p{
-    margin-left:auto;   
-     margin-right:auto; width:960px;
-      height: 600px;
-     overflow-y: scroll;
-
+.feature_section
+{
+    text-align: center;
+    position: relative;
+    left: 220px;
+    bottom: 420px;
+}
+.feature_section h2
+{
+    position: relative;
+    right:3%;
+}
+button
+{
+    float: right;
+    padding: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius:22px;
+    position: relative;
+    right: 450px;
+    bottom: 400px;
+}
+button:hover
+{
+    background-color: yellow;
+    color: black;
+}
+button:active
+{
+    background-color: royalblue;
+    color: yellow;
 }
 
 footer {
     clear: both;
-    padding: 20px;
+    padding: 45px;
     text-align: center;
     background-color: #ddd;
-    margin-top: 20px;
+    margin-top: 30px;
 }
